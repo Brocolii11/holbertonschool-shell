@@ -1,8 +1,4 @@
-Holberton School - Shell
+This is where all the task are executed. 
 
-This repository is created for the task of module 'Shell Basics' 
-
-
-It will be updated as I continue completing the assigned tasks.
-
-Author: Carlos De Jesus, Holberton Puerto Rico, Cohort 30
+Current Task Completed:
+T0 - current working directory
