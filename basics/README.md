@@ -1,61 +1,30 @@
-This is where all the task are executed. 
+This is where all the task are executed. I also figured out some .md styling for the readme. 
 
 Holberton Checker fixed
 
 Current Task Completed(In repo):
-T0 - Where am I? (0-current_working_directory)
-Prints the current working directory using pwd.
 
-T1 - What's in there? (1-listit)
-Lists the contents of the current directory.
 
-T2 - There is no place like home (2-bring_me_home)
-Changes the working directory to the home directory.
-
-T3 - The long format (3-listfiles)
-Lists files in long format with ls -l.
-
-T4 - Hidden files (4-listmorefiles)
-Lists all files including hidden ones with ls -la.
-
-T5 - I love numbers (5-listfilesdigitonly)
-Lists all files in long format with numeric user and group ids.
-
-T6 - Welcome (6-firstdirectory)
-Creates the directory /tmp/my_first_directory.
-
-T7 - Betty in my first directory (7-movethatfile)
-Moves /tmp/betty into /tmp/my_first_directory.
-
-T8 - Bye bye Betty (8-firstdelete)
-Deletes the file betty from /tmp/my_first_directory.
-
-T9 - Bye bye My first directory (9-firstdirdeletion)
-Deletes the directory /tmp/my_first_directory.
-
-T10 - Back to the future (10-back)
-Changes the working directory to the previous one with cd -.
-
-T11 - Lists (11-lists)
-Lists files in the current directory, the parent directory, and /boot.
-
-T12 - File type (12-file_type)
-Prints the type of the file /tmp/iamafile.
-
-T13 - We are symbols, and inhabit symbols (13-symbolic_link)
-Creates a symbolic link to /bin/ls named __ls__.
-
-T14 - Copy HTML files (14-copy_html)
-Copies all .html files to the parent directory, but only if they are new or newer.
-
-T15 - Let's move (15-lets_move)
-Moves all files that start with an uppercase letter to /tmp/u.
-
-T16 - Clean Emcas (16-clean_emacs)
-Deletes all files in the current directory that end with ~.
-
-T17 - Tree (17-tree)
-Creates the directories welcome/, welcome/to/, and welcome/to/school/ using mkdir -p.
+| Task                                      | File                          | What it does                                                                          |
+| ----------------------------------------- | ----------------------------- | ------------------------------------------------------------------------------------- |
+| T0 - Where am I?                          | `0-current_working_directory` | Prints the current working directory using pwd.                                       |
+| T1 - What's in there?                     | `1-listit`                    | Lists the contents of the current directory.                                          |
+| T2 - There is no place like home          | `2-bring_me_home`             | Changes the working directory to the home directory.                                  |
+| T3 - The long format                      | `3-listfiles`                 | Lists files in long format with ls -l.                                                |
+| T4 - Hidden files                         | `4-listmorefiles`             | Lists all files including hidden ones with ls -la.                                    |
+| T5 - I love numbers                       | `5-listfilesdigitonly`        | Lists all files in long format with numeric user and group ids.                       |
+| T6 - Welcome                              | `6-firstdirectory`            | Creates the directory /tmp/my_first_directory.                                        |
+| T7 - Betty in my first directory          | `7-movethatfile`              | Moves /tmp/betty into /tmp/my_first_directory.                                        |
+| T8 - Bye bye Betty                        | `8-firstdelete`               | Deletes the file betty from /tmp/my_first_directory.                                  |
+| T9 - Bye bye My first directory           | `9-firstdirdeletion`          | Deletes the directory /tmp/my_first_directory.                                        |
+| T10 - Back to the future                  | `10-back`                     | Changes the working directory to the previous one with cd -.                          |
+| T11 - Lists                               | `11-lists`                    | Lists files in the current directory, the parent directory, and /boot.                |
+| T12 - File type                           | `12-file_type`                | Prints the type of the file /tmp/iamafile.                                            |
+| T13 - We are symbols, and inhabit symbols | `13-symbolic_link`            | Creates a symbolic link to /bin/ls named **ls**.                                      |
+| T14 - Copy HTML files                     | `14-copy_html`                | Copies all .html files to the parent directory, but only if they are new or newer.    |
+| T15 - Let's move                          | `15-lets_move`                | Moves all files that start with an uppercase letter to /tmp/u.                        |
+| T16 - Clean Emcas                         | `16-clean_emacs`              | Deletes all files in the current directory that end with ~.                           |
+| T17 - Tree                                | `17-tree`                     | Creates the directories welcome/, welcome/to/, and welcome/to/school/ using mkdir -p. |
 
 
 Man info for the shell commands
@@ -297,3 +266,4 @@ TASK NOTES
            ..      parent directory
            Skips overwrite if parent already has same/newer file.
 ```
+
