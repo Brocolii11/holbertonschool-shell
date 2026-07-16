@@ -20,7 +20,7 @@ Current Task Completed(In repo):
 | T10 - Back to the future                  | `10-back`                     | Changes the working directory to the previous one with cd -.                          |
 | T11 - Lists                               | `11-lists`                    | Lists files in the current directory, the parent directory, and /boot.                |
 | T12 - File type                           | `12-file_type`                | Prints the type of the file /tmp/iamafile.                                            |
-| T13 - We are symbols, and inhabit symbols | `13-symbolic_link`            | Creates a symbolic link to /bin/ls named **ls**.                                      |
+| T13 - We are symbols, and inhabit symbols | `13-symbolic_link`            | Creates a symbolic link to /bin/ls named `__ls__`.                                   |
 | T14 - Copy HTML files                     | `14-copy_html`                | Copies all .html files to the parent directory, but only if they are new or newer.    |
 | T15 - Let's move                          | `15-lets_move`                | Moves all files that start with an uppercase letter to /tmp/u.                        |
 | T16 - Clean Emcas                         | `16-clean_emacs`              | Deletes all files in the current directory that end with ~.                           |

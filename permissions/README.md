@@ -2,28 +2,28 @@ This is where all the task are executed. This will follow the same styling as ba
 
 Current Task Completed(in repo):
 
-**Marked tasked were completed in the sandbox holberton provided.**
+Marked tasked were completed in the sandbox holberton provided.
 
 
 | Task | File | What it does |
 | --- | --- | --- |
-| T0 | `0-iam_betty` | Changes user in terminal using su. |
-| T1 | `1-who_am_i` | It shows the active user in the terminal. |
-| T2 | `2-groups` | It shows how many groups the active user is in. |
-| **T3*** | `3-new_owner` | This command let you change the ownership of the file between users. |
-| T4 | `4-empty` | Creates an empty file using touch. |
-| T5 | `5-execute` | Changes execute permisions for the active user over a file. |
-| T6 | `6-multiple_permissions` | Adds execute for user and group, and read for others. |
-| T7 | `7-everybody` | Adds execute permission for everybody. |
-| T8 | `8-James_Bond` | Sets permissions to 007 so only others have full access. |
-| T9 | `9-John_Doe` | Sets permissions to 753 on hello. |
-| T10 | `10-mirror_permissions` | Copies permissions from olleh to hello using --reference. |
-| T11 | `11-directories_permissions` | Adds execute for directories only, recursively, with a+X. |
-| T12 | `12-directory_permissions` | Creates my_dir with mode 751 using mkdir -m. |
-| **T13*** | `13-change_group` | Changes the group of hello to school. |
-| **T14*** | `14-change_owner_and_group` | Recursively changes owner and group to vincent:staff. |
-| **T15*** | `15-symbolic_link_permissions` | Changes owner and group of a symbolic link itself with -h. |
-| **T16*** | `16-if_only` | Changes owner to vincent only if the current owner is guillaume. |
+| T0 - I am Betty | `0-iam_betty` | Switches the current user to betty using su. |
+| T1 - Who am I | `1-who_am_i` | Shows the active user with whoami. |
+| T2 - Groups | `2-groups` | Shows the groups the active user is in. |
+| T3 - New owner | `3-new_owner` | Changes the owner of hello to betty. |
+| T4 - Empty | `4-empty` | Creates an empty file hello using touch. |
+| T5 - Execute | `5-execute` | Adds execute permission for the owner on hello. |
+| T6 - Multiple permissions | `6-multiple_permissions` | Adds execute for user and group, and read for others. |
+| T7 - Everybody | `7-everybody` | Adds execute permission for everybody. |
+| T8 - James Bond | `8-James_Bond` | Sets permissions to 007 so only others have full access. |
+| T9 - John Doe | `9-John_Doe` | Sets permissions to 753 on hello. |
+| T10 - Mirror permissions | `10-mirror_permissions` | Copies permissions from olleh to hello using --reference. |
+| T11 - Directories permissions | `11-directories_permissions` | Adds execute for directories only, recursively, with a+X. |
+| T12 - Directory permissions | `12-directory_permissions` | Creates my_dir with mode 751 using mkdir -m. |
+| T13 - Change group | `13-change_group` | Changes the group of hello to school. |
+| T14 - Change owner and group | `14-change_owner_and_group` | Recursively changes owner and group to vincent:staff. |
+| T15 - Symbolic link permissions | `15-symbolic_link_permissions` | Changes owner and group of a symbolic link itself with -h. |
+| T16 - If only | `16-if_only` | Changes owner to vincent only if the current owner is guillaume. |
 
 
 Man info for the shell commands

@@ -1,4 +1,4 @@
-This is where all the task are executed. Same styling as the other modules.
+This is where all the task are executed. This will follow the same styling as basics.
 
 Current Task Completed(in repo):
 
@@ -18,6 +18,7 @@ Current Task Completed(in repo):
 | T11 - Binary to decimal | `11-binary_to_decimal` | Converts BINARY from base 2 to base 10. |
 | T12 - Combinations | `12-combinations` | Prints all two-letter combos a-z except oo. |
 | T13 - Print float | `13-print_float` | Prints NUM with two decimal places. |
+| T14 - Decimal to hexadecimal | `14-decimal_to_hexadecimal` | Converts DECIMAL from base 10 to base 16. |
 
 
 Man info for the shell commands
@@ -73,4 +74,8 @@ TASK NOTES
 
        T13 printf "%.2f\n" $NUM
            Formats NUM with 2 decimal places.
+
+       T14 printf "%x\n" $DECIMAL
+           %x prints the number in hexadecimal (base 16).
+           Example: DECIMAL=16 prints 10.
 ```
